@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+}
+
+.contenedor {
+    background: #fff35c;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0; /* Ajusta el espaciado interno según tus preferencias */
+    margin-top: 0; /* Ajusta el margen superior del contenedor */
+}
+
+#gif {
+    display: block;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin-top: -90px;
+}
+
+
+h4 {
+    font-size: 45px;
+    font: bold;
+    color: black;
+    margin-top: 10px; /* Usa margin-top para ajustar la distancia superior del elemento */
+}
+
+h5.nombre {
+    font-size: 18px;
+    color: black;
+    margin-top: 10px;
+}
+
+button{
+    font-size: xx-large;
+    padding: 0.75em;
+    cursor: pointer; /* Agrega esta línea para cambiar el puntero del mouse */
+}
+
+#yesBtn {
+    position: absolute;
+    top: 570px; /* Ajusta la posición vertical según tus preferencias */
+    left: 800px; 
+    background-color: #4CAF50;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+#noBtn{
+    position: absolute;
+    top: 550px; /* Ajusta la posición vertical según tus preferencias */
+    left: 700px;
+    transform: translateX(-50%);
+    z-index: 3;
+    margin-top: 20px; /* Agrega espacio entre el botón y el gif */
+    background-color: #FF0000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
